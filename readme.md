@@ -28,8 +28,8 @@ Welcome to my learning journey toward becoming a Cloud & Network Automation Engi
 
 | Lesson     |   Status    |
 |------------|-------------|
-| Lesson 01  | In process  |
-| Lesson 02  | 
+| Lesson 01  | Completed   |
+| Lesson 02  | In process  |
 
 ---
 ## Long-Term Goal
