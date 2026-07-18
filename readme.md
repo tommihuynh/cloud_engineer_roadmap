@@ -26,10 +26,17 @@ Welcome to my learning journey toward becoming a Cloud & Network Automation Engi
 
 ### Python
 
-| Lesson     |   Status    |
-|------------|-------------|
-| Lesson 01  | Completed   |
-| Lesson 02  | In process  |
+| Lesson     |   Status   |
+|------------|------------|
+| Lesson 01  | Completed  |
+| Lesson 02  | Completed  |
+| Lesson 03  | Completed  |
+| Lesson 04  | Completed  |
+| Lesson 05  | Completed  |
+| Lesson 06  | Completed  |
+| Milestone_Project_01 | In process |
+
+
 
 ---
 ## Long-Term Goal
