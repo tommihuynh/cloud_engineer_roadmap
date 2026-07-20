@@ -34,6 +34,8 @@ Welcome to my learning journey toward becoming a Cloud & Network Automation Engi
 | Lesson 04  | Completed  |
 | Lesson 05  | Completed  |
 | Lesson 06  | Completed  |
+| Lesson 07  | Completed  |
+| Lesson 08  | Completed  |
 | Milestone_Project_01 | In process |
 
 
