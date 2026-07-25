@@ -1,0 +1,4 @@
+web_01, 192.168.10.100, CentOS, 128 , 8 Coresweb_02,192.168.1.101,Ubuntu,256 GB,16 cores db_01,192.168.1.200,Ubuntu,256 GB,64 cores.
+db_02,192.168.1.202,CentOS,256 GB,64 cores 
+file_01,192.168.1.203,Ubuntu,128 GB,64 cores 
+file_02,192.168.1.120,CentOS,128 GB,64 cores 
