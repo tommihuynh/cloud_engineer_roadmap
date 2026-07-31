@@ -1,5 +1,11 @@
+import datetime as dt
 
 def save(name, status):
-    with open("server_monitor.txt", "a") as file:
-        file.write(f"{name}, {status}\n")
-        print("Hi, the server information saved successfully ")
+    """Add the server name and status """
+    try:
+        with open("server_monitor.txt", "a") as file:
+            file.write(f"{dt.datetime.now()}, {name}, {status}\n")
+            return True
+    except OSError as err:
+        print(f"Unable to save the information: {err}")
+        return False
