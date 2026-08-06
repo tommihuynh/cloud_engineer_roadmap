@@ -1,0 +1,68 @@
+[
+    {
+        "hostname": "web-01",
+        "ip": "10.10.10.122",
+        "os": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "web-02",
+        "ip": "10.10.10.125",
+        "os": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "web-04",
+        "ip": "10.10.10.113",
+        "os": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "web-06",
+        "ip": "10.10.10.127",
+        "os": "Ubuntu",
+        "status": "Maintenance"
+    },
+    {
+        "hostname": "bdg-01",
+        "ip": "10.10.10.111",
+        "os": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "web-07",
+        "ip": "10.10.10.156",
+        "os": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "web-22",
+        "ip": "10.10.10.231",
+        "operation": "Ubuntu",
+        "status": "Stopped"
+    },
+    {
+        "hostname": "web-23",
+        "ip": "10.10.10.177",
+        "operation": "Ubuntu",
+        "status": "Offline"
+    },
+    {
+        "hostname": "wjw-03",
+        "ip": "10.10.10.100",
+        "operation": "Ubuntu",
+        "status": "Running"
+    },
+    {
+        "hostname": "err-02",
+        "ip": "10.10.10.168",
+        "operation": "Ubuntu",
+        "status": "Offline"
+    },
+    {
+        "hostname": "wer-02",
+        "ip": "10.10.10.189",
+        "operation": "Ubuntu",
+        "status": "Running"
+    }
+]
