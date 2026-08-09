@@ -1,4 +1,4 @@
-
+from server import Server
 
 def create_server(hostname, ip, operating_system, status):
     """ Write data into JSON file """

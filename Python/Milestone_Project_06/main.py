@@ -18,7 +18,7 @@ if ip is None:
    sys.exit(1)
 
 operating_system = get_os()
-if operation is None:
+if operating_system is None:
     sys.exit(1)
 
 status = get_status()

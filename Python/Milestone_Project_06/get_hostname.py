@@ -11,20 +11,11 @@ def get_hostname(servers):
         except KeyboardInterrupt:
             print("\n Program cancelled by user.")
             return None
-        if name == "":
-            print("Server name cannot be empty.")
-            continue
-
-        is_duplicate = False
 
         if VALID_FORMAT.match(name):
-            for server in servers:
-                if server["hostname"] == name:
-                    print("Duplicate hostname, please type it again.")
-                    is_duplicate = True
-                    break
-
-        if not is_duplicate:
+            if any(server["hostname"] == name for server in servers):
+                print("Duplicate hostname, please type it again.")
+                continue
             return name
-
-        print("Invalid server name. Use the format: abc-01")
+        else:
+            print("Invalid server name. Use the format: abc-01")
