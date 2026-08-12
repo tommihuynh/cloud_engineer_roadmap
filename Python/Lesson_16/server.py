@@ -1,0 +1,51 @@
+VALID_STATUS = { "Running", "Stopped", "Offline", "Maintenance"}
+
+
+class Server:
+
+    def __init__(self, hostname, ip, operating_system, status):
+        self.hostname = hostname
+        self.ip = ip
+        self.operating_system = operating_system
+        self.status = status
+
+    def display(self):
+        print("================================") 
+        print("The server information: ")
+        print("================================")
+        print(f"Hostname: {self.hostname}")
+        print(f"IP: {self.ip}")
+        print(f"OS: {self.operating_system}")
+        print(f"Status: {self.status}")
+        print("--------------------------------")
+
+    def is_running(self):
+        if self.status == "Running":
+            return True
+        return False
+
+    def change_status(self, new_status):
+        if new_status not in VALID_STATUS:
+            print("Invalid status.")
+            return False
+
+        self.status = new_status
+        print(f"{self.hostname} status changed to {self.status}.")
+        return True
+
+    def start(self):
+        self.status = "Running"
+        print(f"{self.hostname} is starting.")
+
+    def stop(self):
+        self.status == "Stopped"
+        print(f"{self.hostname} has been stopped.")
+
+    def reboot(self):
+        if self.is_running() is True:
+            print(f"{self.hostname} is rebooting... ")
+            self.stop()
+            self.start()
+            print(f"{self.hostname} has been reboot successfull. ")
+            return True
+        return False
