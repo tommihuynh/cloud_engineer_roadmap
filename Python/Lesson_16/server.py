@@ -38,11 +38,11 @@ class Server:
         print(f"{self.hostname} is starting.")
 
     def stop(self):
-        self.status == "Stopped"
+        self.status = "Stopped"
         print(f"{self.hostname} has been stopped.")
 
     def reboot(self):
-        if self.is_running() is True:
+        if self.is_running():
             print(f"{self.hostname} is rebooting... ")
             self.stop()
             self.start()

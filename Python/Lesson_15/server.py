@@ -27,10 +27,3 @@ class Server:
             print(f"\n The server is not running")
             return False
 
-    def change_status(self, new_status):
-        self.status = new_status
-        print(f"Server status changed to {self.status}")
-   
-    def stop(self):
-        self.status = "Stopped"
-        print(f"{self.hostname} has been stopped.")
