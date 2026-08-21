@@ -36,7 +36,7 @@ Welcome to my learning journey toward becoming a Cloud & Network Automation Engi
 | Lesson 06  | Completed  |
 | Lesson 07  | Completed  |
 | Lesson 08  | Completed  |
-| Milestone_Project_01 | In process |
+| Milestone_Project_01 | Completed |
 | Lesson 09  | Completed |
 | Lesson 10  | Completed |
 | Milestone_Project_02 | Completed |
@@ -48,7 +48,10 @@ Welcome to my learning journey toward becoming a Cloud & Network Automation Engi
 | Milestone_Project_05 | Completed |
 | Lesson 14 | Completed |
 | Milestone_Project_06 | Completed |
-| Lesson 15 | In process |
+| Lesson 15 | Completed |
+| Lesson 16 - Lesson 23 | Completed
+| Lesson 24 | In process |
+
 ---
 ## Long-Term Goal
 
