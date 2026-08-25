@@ -1,0 +1,6 @@
+successful GET request: http://127.0.0.1:5000/servers
+Server health check started.
+web-01 is running.
+dbb-01 is running.
+web-02 is stopped. 
+Server health check finished.
