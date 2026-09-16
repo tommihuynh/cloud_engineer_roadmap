@@ -9,17 +9,24 @@ servers = client.get("/servers")
 for server in servers:
     print(server)
 
+new_server = { 
+    "hostname": "web-03", 
+    "ip": "10.10.10.12", 
+    "operating_system": "Ubuntu", 
+    "server_type": "web", 
+    "services": " nginx", 
+    "status": "Running" } 
 
-new_server = {
-    "hostname": "web-03",
-    "ip": "10.10.10.12",
-    "operating_system": "Ubuntu",
-    "server_type": "web",
-    "services": "nginx",
-    "status": "Running"
-}
-
-created_server = client.post("/servers", new_server)
+created_server = client.post("/servers", new_server) 
 
 print("\n Created server:")
 print(created_server)
+
+
+update_data= { "status": "Running"}
+
+updated_server = client.put( "/servers/web-02", update_data)
+
+
+print("\nUpdated server:")
+print(updated_server)

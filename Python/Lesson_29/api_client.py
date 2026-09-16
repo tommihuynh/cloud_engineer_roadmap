@@ -11,13 +11,16 @@ class APIClient:
         url = self.base_url + endpoint
 
         response = requests.request(method, url, json=data)
-        
+
         response.raise_for_status()
-            
+
         return response.json()
-        
+
     def get(self, endpoint):
         return self._request("GET", endpoint)
 
     def post(self, endpoint, data):
         return self._request("POST", endpoint, data)
+
+    def put(self, endpoint, data):
+        return self._request("PUT", endpoint, data)

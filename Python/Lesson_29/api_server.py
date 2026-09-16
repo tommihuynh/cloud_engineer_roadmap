@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -36,6 +37,15 @@ def get_servers():
         }
     ]
     return jsonify(servers)
+
+@app.route("/servers/<hostname>", methods=["PUT"])
+
+def update_server(hostname):
+    data = request.get_json()
+
+    return jsonify({ "hostname": hostname, "updated_data": data}), 200
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
