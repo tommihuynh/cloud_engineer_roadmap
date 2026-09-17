@@ -19,7 +19,7 @@ new_server = {
 
 created_server = client.post("/servers", new_server) 
 
-print("\n Created server:")
+print("\nCreated server:")
 print(created_server)
 
 
@@ -30,3 +30,8 @@ updated_server = client.put( "/servers/web-02", update_data)
 
 print("\nUpdated server:")
 print(updated_server)
+
+deleted_server = client.delete("/servers/web-02")
+
+print("\nDeleted server: ")
+print(deleted_server)

@@ -1,7 +1,6 @@
 import requests
 
 
-
 class APIClient:
     """Request and receive data from a server """
     def __init__(self, base_url):
@@ -24,3 +23,8 @@ class APIClient:
 
     def put(self, endpoint, data):
         return self._request("PUT", endpoint, data)
+
+    def delete(self, endpoint):
+        return self._request("DELETE", endpoint)
+
+

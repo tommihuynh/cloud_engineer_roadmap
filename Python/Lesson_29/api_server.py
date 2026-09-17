@@ -46,6 +46,12 @@ def update_server(hostname):
     return jsonify({ "hostname": hostname, "updated_data": data}), 200
 
 
+@app.route("/servers/<hostname>", methods=["DELETE"])
+
+def delete_server(hostname):
+    return jsonify({ "message": f"Server {hostname} deleted" }), 200
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
